@@ -23,7 +23,7 @@ header {
   padding: 10px;
   background-color: var(--backgroundColorPrimary);
   color: white;
-  height: 100px;
+  height: 80px;
   justify-content: space-between;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
@@ -31,17 +31,17 @@ header {
   display: flex;
   background-color: var(--backgroundColorPrimary);
   justify-content: space-between;
-  width: 1750px;
+  width: 100vh;
 }
-.navMenu img {
-  border-radius: 50%;
+header img {
+  border-radius: 5px;
 }
 ul {
   display: flex;
   gap: 20px;
   background-color: var(--backgroundColorPrimary);
   color: white;
-  gap: 100px;
+  gap: 80px;
   margin-right: 200px;
   padding: 20px;
   align-items: center;
@@ -280,4 +280,15 @@ footer a {
   background-color: black;
   color: white;
   gap: 20px;
+}
+#menuToggle {
+  display: none;
+}
+.menuToggle {
+  font-size: 36px;
+  background-color: var(--backgroundColorPrimary);
+  color: var(--textColorPrimary);
+  display: none;
+  position: absolute;
+  right: 60px;
 }

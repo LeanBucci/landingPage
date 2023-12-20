@@ -1,0 +1,53 @@
+@media (max-width: 992px) {
+  .menuToggle {
+    display: flex;
+    background-color: rgb(225, 218, 218);
+  }
+  .menuToggle i {
+    background-color: rgb(225, 218, 218);
+  }
+  .navMenu ul {
+    position: absolute;
+    flex-direction: column;
+    top: 80px;
+    left: 0;
+    background-color: var(--backgroundColorSecondary);
+    width: 90%;
+    padding: 20px;
+    border: 2px solid var(--backgroundColorPrimary);
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    display: none;
+  }
+  .navMenu a {
+    background-color: var(--backgroundColorSecondary);
+  }
+
+  #menuToggle:checked + ul {
+    display: flex;
+  }
+  .heroDescription {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .generalDescription {
+    text-align: center;
+  }
+  .cardSection {
+    flex-direction: column;
+  }
+  .heroContact img {
+    display: none;
+  }
+  .datos {
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .heroContact {
+    justify-content: center;
+  }
+}
